@@ -30,7 +30,7 @@ jobs:
           javascript-obfuscator 明文源码.js --output _worker.js \
           --compact true \
           --control-flow-flattening true \
-          --control-flow-flattening-threshold 1 \
+          --control-flow-flattening-threshold 10 \
           --dead-code-injection false \
           --identifier-names-generator hexadecimal \
           --rename-globals true \
